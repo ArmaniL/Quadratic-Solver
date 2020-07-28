@@ -1,0 +1,77 @@
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 44%, rgba(252,176,69,1) 100%);}
+.banner{
+ display: flex;
+ margin-top: 8rem;   
+justify-content: center;
+transition: 150ms;
+font-size:2.5rem;
+
+}
+
+.banner:hover{
+transform: scale(2);
+
+}
+
+.input{
+
+
+display: flex;
+justify-content: center;
+margin-top: 2.5rem;
+}
+
+button{
+background: none;
+ border: none;
+ outline: none;   
+ cursor: pointer;
+ font-style: oblique;
+}
+
+.input{
+
+    transition: 100ms;
+
+}
+
+.input:hover{
+
+
+    transition: scale(3);
+}
+
+h1{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    transition: 120ms;
+    animation-name: easein;
+    animation-duration: 800ms;
+    font-size: 3.5rem;
+}
+
+@keyframes easein{
+
+0% {   font-size: 0.2rem;  }
+100% {font-size: 3.5rem;}
+
+}
+
+.results{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-style: oblique;
+    font-size: 1.5rem;
+    transition: 120ms;
+
+}
+
+.results:hover{
+
+    transform: scale(1.2);
+}
